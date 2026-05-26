@@ -43,4 +43,4 @@ jobs:
 
       - name: Push Latest Image
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/k8s-demo:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/k8s-demo:latests
