@@ -2,8 +2,8 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('CI/CD Pipeline Working Successfully!');
+app.get("/", (req, res) => {
+  res.send("Hello from ArgoCD Auto Deployment!");
 });
 
 app.listen(3000, () => {
